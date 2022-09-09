@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddHorse">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:text="@string/str_addHorse"
+        style="@style/txt_title"/>
+
+    <EditText
+        android:id="@+id/txt_horseName"
+        style="@style/edit_text"
+        android:hint="@string/str_horseName" />
+
+    <EditText
+        android:id="@+id/txt_shoeSize"
+        style="@style/edit_text"
+        android:hint="@string/str_shoeSize"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/txt_ownerName"
+        style="@style/edit_text"
+        android:hint="@string/str_ownerName" />
+
+    <EditText
+        android:id="@+id/txt_phone"
+        style="@style/edit_text"
+        android:hint="@string/str_phone"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:text="@string/str_save"
+        android:onClick="btnClickSaveHorse"
+        style="@style/button"/>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchHorse">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:text="@string/str_searchHorse"
+        style="@style/txt_title"/>
+
+    <EditText
+        android:id="@+id/txt_horseName"
+        android:hint="@string/str_horseName"
+        style="@style/edit_text"/>
+
+    <Button
+        android:id="@+id/btn_search"
+        android:text="@string/str_search"
+        style="@style/button"
+        android:onClick="btnSearchHorse"/>
+
+    <TextView
+        android:id="@+id/txt_owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/str_ownerName"
+        style="@style/txt_title"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/txt_shoe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/str_shoeSize"
+        style="@style/txt_title"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/txt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/str_phone"
+        style="@style/txt_title"
+        android:layout_gravity="left"/>
+
+</LinearLayout>

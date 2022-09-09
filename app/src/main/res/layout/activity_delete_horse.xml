@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DeleteHorse">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:text="@string/str_deleteHorse"
+        style="@style/txt_title"/>
+
+    <EditText
+        android:id="@+id/txt_searchName"
+        android:hint="@string/str_horseName"
+        style="@style/edit_text" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:onClick="btnDelete"
+        android:text="@string/str_delete"
+        style="@style/button" />
+
+</LinearLayout>

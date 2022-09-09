@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Hästregister</string>
+    <string name="Lyckat">Hästen är nu tillagd!</string>
+    <string name="Misslyckat">Något gick fel!</string>
+    <string name="str_deleteHorse">Ta bort häst</string>
+    <string name="str_horseName">Hästens namn</string>
+    <string name="str_delete">Ta bort</string>
+    <string name="str_goBack">Tillbaka</string>
+    <string name="str_menu">Vad vill du göra?</string>
+    <string name="str_addHorse">Lägg till häst</string>
+    <string name="str_shoeSize">Skostorlek</string>
+    <string name="str_ownerName">Ägarens namn</string>
+    <string name="str_phone">Telefonnummer</string>
+    <string name="str_save">Spara</string>
+    <string name="str_cancel">Avbryt</string>
+    <string name="str_showAll">Visa alla hästar</string>
+    <string name="str_search">Sök</string>
+    <string name="str_updateHorse">Uppdatera häst</string>
+    <string name="str_update">Uppdatera</string>
+    <string name="str_updateData">Ändra uppgifter:</string>
+    <string name="str_searchHorse">Sök häst</string>
+
+</resources>
